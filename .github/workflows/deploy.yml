@@ -1,0 +1,52 @@
+name: Deploy Next.js site to Pages
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Build the static export inside Docker. The base path follows the repo
+      # name so the site works at https://<owner>.github.io/<repo>/.
+      - name: Build Docker image
+        run: docker build --build-arg NEXT_PUBLIC_BASE_PATH=/${{ github.event.repository.name }} -t nextjs-site .
+
+      - name: Create container from image
+        run: docker create --name extract nextjs-site
+
+      - name: Copy out directory from container
+        run: docker cp extract:/app/out ./out
+
+      - name: Remove container
+        run: docker rm extract
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

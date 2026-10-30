@@ -1,0 +1,360 @@
+{
+ "note": "Computed from rgb.mp4 with an RGB vegetation index. Replace with model output.",
+ "samples": [
+  {
+   "t": 0.0,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.111
+  },
+  {
+   "t": 0.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.109
+  },
+  {
+   "t": 1.0,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.11
+  },
+  {
+   "t": 1.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.109
+  },
+  {
+   "t": 2.0,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.109
+  },
+  {
+   "t": 2.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.108
+  },
+  {
+   "t": 3.0,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.108
+  },
+  {
+   "t": 3.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.108
+  },
+  {
+   "t": 4.0,
+   "vegetation_cover_pct": 0.5,
+   "mean_index": 0.109
+  },
+  {
+   "t": 4.5,
+   "vegetation_cover_pct": 0.8,
+   "mean_index": 0.111
+  },
+  {
+   "t": 5.0,
+   "vegetation_cover_pct": 1.3,
+   "mean_index": 0.114
+  },
+  {
+   "t": 5.5,
+   "vegetation_cover_pct": 1.5,
+   "mean_index": 0.116
+  },
+  {
+   "t": 6.0,
+   "vegetation_cover_pct": 1.9,
+   "mean_index": 0.118
+  },
+  {
+   "t": 6.5,
+   "vegetation_cover_pct": 2.4,
+   "mean_index": 0.121
+  },
+  {
+   "t": 7.0,
+   "vegetation_cover_pct": 2.5,
+   "mean_index": 0.121
+  },
+  {
+   "t": 7.5,
+   "vegetation_cover_pct": 2.7,
+   "mean_index": 0.123
+  },
+  {
+   "t": 8.0,
+   "vegetation_cover_pct": 3.0,
+   "mean_index": 0.125
+  },
+  {
+   "t": 8.5,
+   "vegetation_cover_pct": 2.6,
+   "mean_index": 0.124
+  },
+  {
+   "t": 9.0,
+   "vegetation_cover_pct": 3.4,
+   "mean_index": 0.127
+  },
+  {
+   "t": 9.5,
+   "vegetation_cover_pct": 3.9,
+   "mean_index": 0.131
+  },
+  {
+   "t": 10.0,
+   "vegetation_cover_pct": 5.4,
+   "mean_index": 0.14
+  },
+  {
+   "t": 10.5,
+   "vegetation_cover_pct": 7.0,
+   "mean_index": 0.151
+  },
+  {
+   "t": 11.0,
+   "vegetation_cover_pct": 8.5,
+   "mean_index": 0.161
+  },
+  {
+   "t": 11.5,
+   "vegetation_cover_pct": 11.7,
+   "mean_index": 0.18
+  },
+  {
+   "t": 12.0,
+   "vegetation_cover_pct": 13.7,
+   "mean_index": 0.194
+  },
+  {
+   "t": 12.5,
+   "vegetation_cover_pct": 15.4,
+   "mean_index": 0.203
+  },
+  {
+   "t": 13.0,
+   "vegetation_cover_pct": 15.9,
+   "mean_index": 0.208
+  },
+  {
+   "t": 13.5,
+   "vegetation_cover_pct": 18.7,
+   "mean_index": 0.225
+  },
+  {
+   "t": 14.0,
+   "vegetation_cover_pct": 21.8,
+   "mean_index": 0.247
+  },
+  {
+   "t": 14.5,
+   "vegetation_cover_pct": 24.9,
+   "mean_index": 0.267
+  },
+  {
+   "t": 15.0,
+   "vegetation_cover_pct": 27.4,
+   "mean_index": 0.286
+  },
+  {
+   "t": 15.5,
+   "vegetation_cover_pct": 29.9,
+   "mean_index": 0.302
+  },
+  {
+   "t": 16.0,
+   "vegetation_cover_pct": 31.3,
+   "mean_index": 0.313
+  },
+  {
+   "t": 16.5,
+   "vegetation_cover_pct": 31.5,
+   "mean_index": 0.313
+  },
+  {
+   "t": 17.0,
+   "vegetation_cover_pct": 31.4,
+   "mean_index": 0.317
+  },
+  {
+   "t": 17.5,
+   "vegetation_cover_pct": 31.0,
+   "mean_index": 0.312
+  },
+  {
+   "t": 18.0,
+   "vegetation_cover_pct": 30.6,
+   "mean_index": 0.313
+  },
+  {
+   "t": 18.5,
+   "vegetation_cover_pct": 30.2,
+   "mean_index": 0.308
+  },
+  {
+   "t": 19.0,
+   "vegetation_cover_pct": 29.7,
+   "mean_index": 0.308
+  },
+  {
+   "t": 19.5,
+   "vegetation_cover_pct": 29.4,
+   "mean_index": 0.303
+  },
+  {
+   "t": 20.0,
+   "vegetation_cover_pct": 29.1,
+   "mean_index": 0.305
+  },
+  {
+   "t": 20.5,
+   "vegetation_cover_pct": 28.9,
+   "mean_index": 0.3
+  },
+  {
+   "t": 21.0,
+   "vegetation_cover_pct": 28.5,
+   "mean_index": 0.301
+  },
+  {
+   "t": 21.5,
+   "vegetation_cover_pct": 28.4,
+   "mean_index": 0.297
+  },
+  {
+   "t": 22.0,
+   "vegetation_cover_pct": 28.0,
+   "mean_index": 0.298
+  },
+  {
+   "t": 22.5,
+   "vegetation_cover_pct": 27.1,
+   "mean_index": 0.289
+  },
+  {
+   "t": 23.0,
+   "vegetation_cover_pct": 25.5,
+   "mean_index": 0.281
+  },
+  {
+   "t": 23.5,
+   "vegetation_cover_pct": 24.5,
+   "mean_index": 0.273
+  },
+  {
+   "t": 24.0,
+   "vegetation_cover_pct": 21.7,
+   "mean_index": 0.258
+  },
+  {
+   "t": 24.5,
+   "vegetation_cover_pct": 18.7,
+   "mean_index": 0.237
+  },
+  {
+   "t": 25.0,
+   "vegetation_cover_pct": 17.1,
+   "mean_index": 0.228
+  },
+  {
+   "t": 25.5,
+   "vegetation_cover_pct": 16.1,
+   "mean_index": 0.221
+  },
+  {
+   "t": 26.0,
+   "vegetation_cover_pct": 14.6,
+   "mean_index": 0.213
+  },
+  {
+   "t": 26.5,
+   "vegetation_cover_pct": 11.6,
+   "mean_index": 0.192
+  },
+  {
+   "t": 27.0,
+   "vegetation_cover_pct": 8.4,
+   "mean_index": 0.172
+  },
+  {
+   "t": 27.5,
+   "vegetation_cover_pct": 5.6,
+   "mean_index": 0.151
+  },
+  {
+   "t": 28.0,
+   "vegetation_cover_pct": 3.1,
+   "mean_index": 0.135
+  },
+  {
+   "t": 28.5,
+   "vegetation_cover_pct": 0.9,
+   "mean_index": 0.119
+  },
+  {
+   "t": 29.0,
+   "vegetation_cover_pct": 0.1,
+   "mean_index": 0.115
+  },
+  {
+   "t": 29.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.114
+  },
+  {
+   "t": 30.0,
+   "vegetation_cover_pct": 0.1,
+   "mean_index": 0.115
+  },
+  {
+   "t": 30.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.114
+  },
+  {
+   "t": 31.0,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.114
+  },
+  {
+   "t": 31.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.113
+  },
+  {
+   "t": 32.0,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.114
+  },
+  {
+   "t": 32.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.114
+  },
+  {
+   "t": 33.0,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.115
+  },
+  {
+   "t": 33.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.113
+  },
+  {
+   "t": 34.0,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.114
+  },
+  {
+   "t": 34.5,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.113
+  },
+  {
+   "t": 35.0,
+   "vegetation_cover_pct": 0.0,
+   "mean_index": 0.114
+  }
+ ]
+}
